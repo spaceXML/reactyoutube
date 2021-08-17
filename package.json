@@ -1,3 +1,4 @@
+
 {
   "name": "react-boiler-plate",
   "version": "1.0.0",
@@ -11,6 +12,7 @@
     "start": "node server/index.js",
     "backend": "nodemon server/index.js",
     "frontend": "npm run start --prefix client",
+    "eslintIgnore": "ignoredfile.js/ignoredfile2.js", 
     "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\"",
     "predeploy": "react-scripts build",
     "deploy": "gh-pages -d build"
@@ -37,5 +39,5 @@
     "concurrently": "^4.1.0",
     "nodemon": "^1.19.1"
   },
-  "homepage": "https://wdh005.github.io/youtubeclonecoding/"
+  "homepage": "https://spaceXML.github.io/reactpage/"
 }
