@@ -1,4 +1,3 @@
-
 {
   "name": "react-boiler-plate",
   "version": "1.0.0",
@@ -12,7 +11,7 @@
     "start": "node server/index.js",
     "backend": "nodemon server/index.js",
     "frontend": "npm run start --prefix client",
-    "eslintIgnore": "ignoredfile.js/ignoredfile2.js", 
+    "eslintIgnore": "ignoredfile.js/ignoredfile2.js",
     "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\"",
     "predeploy": "react-scripts build",
     "deploy": "gh-pages -d build"
@@ -27,6 +26,7 @@
     "debug": "^4.1.1",
     "express": "^4.17.1",
     "fluent-ffmpeg": "^2.1.2",
+    "gh-pages": "^3.2.3",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.24.0",
     "mongoose": "^5.4.20",
