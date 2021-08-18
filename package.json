@@ -13,7 +13,7 @@
     "frontend": "npm run start --prefix client",
     "eslintIgnore": "ignoredfile.js/ignoredfile2.js",
     "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\"",
-    "predeploy": "react-scripts build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "author": "John ahn",
@@ -39,5 +39,5 @@
     "concurrently": "^4.1.0",
     "nodemon": "^1.19.1"
   },
-  "homepage": "https://spaceXML.github.io/reactpage/"
+  "homepage": "https://spaceXML.github.io/reactpage123/"
 }
