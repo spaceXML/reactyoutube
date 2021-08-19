@@ -39,5 +39,5 @@
     "concurrently": "^4.1.0",
     "nodemon": "^1.19.1"
   },
-  "homepage": "https://spaceXML.github.io/reactyoutube/"
+  "homepage": "https://spacexml.github.io/reactyoutube/"
 }
