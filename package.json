@@ -1,5 +1,5 @@
 {
-  "name": "reactpage123",
+  "name": "reactyoutube",
   "version": "1.0.0",
   "description": "react boiler plate",
   "main": "index.js",
@@ -39,5 +39,5 @@
     "concurrently": "^4.1.0",
     "nodemon": "^1.19.1"
   },
-  "homepage": "https://spaceXML.github.io/reactpage123/"
+  "homepage": "https://spaceXML.github.io/reactyoutube/"
 }
